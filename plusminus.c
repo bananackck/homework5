@@ -14,6 +14,8 @@ int main() {
 		printf("Result is %d\n", a + b);
 	else if (calc == '-')
 		printf("Result is %d\n", a - b);
+	else if (calc == '*')
+		printf("Result is %d\n", a * b);
 
 	return 0;
 }
